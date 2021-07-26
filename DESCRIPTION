@@ -7,7 +7,16 @@ License: What license is it under?
 Imports: 
     config,
     golem,
-    shiny
+    shiny,
+    thinkr
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
+Suggests: 
+    rmarkdown,
+    knitr,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+URL: https://github.com/grusheInvestec/appLogs4f
+BugReports: https://github.com/grusheInvestec/appLogs4f/issues
